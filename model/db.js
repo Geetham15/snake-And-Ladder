@@ -11,6 +11,7 @@ function getCollection(name){
     return getDb.then((db) => db.collection(name))
 }
 
+//exporting the file
 module.exports = {
     getCollection
 }
